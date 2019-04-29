@@ -1,0 +1,97 @@
+2008-11-10 16:52:28,947 [main] DEBUG simpa.annotation.TileAnnotationSpatialLocation  - SpatialLocation: simpa.annotation.TileAnnotationSpatialLocation@ed9f47
+        Image:
+                Dimensions:                                [640px x 364px]
+                Size:                                      [3.4298m x 1.9331m]
+                Distance from center to origin:            [1.136m, -0.2898m]
+                Heading:                                    -90.84245841799202 degrees
+        Annotation:
+                Pixel:                                     [202, 150]
+                Distance from center to annotation:        [-0.632369375m, 0.16994285714285715m]
+                Distance from origin to annotation:        [0.9753733307777651m, -0.9245997119299434m]
+                Distance from center to annotation:         0.6548065371785534m
+                Math angle from center to annotation:       255.80019953077988
+                geographic angle from center to annotation: 194.19980046922012
+        
+2008-11-10 16:52:29,005 [main] DEBUG simpa.annotation.TileAnnotationSpatialLocation  - SpatialLocation: simpa.annotation.TileAnnotationSpatialLocation@5db5ae
+        Image:
+                Dimensions:                                [640px x 364px]
+                Size:                                      [3.4928m x 1.967m]
+                Distance from center to origin:            [1.1408m, 0.1953m]
+                Heading:                                    -106.09459492437453 degrees
+        Annotation:
+                Pixel:                                     [195, 249]
+                Distance from center to annotation:        [-0.6821875m, -0.36205769230769236m]
+                Distance from origin to annotation:        [1.6777857117425443m, -0.3597782855595909m]
+                Distance from center to annotation:         0.7723118267354331m
+                Math angle from center to annotation:       -45.94915068641551
+                geographic angle from center to annotation: 135.9491506864155
+        
+2008-11-10 16:52:29,067 [main] DEBUG simpa.annotation.TileAnnotationSpatialLocation  - SpatialLocation: simpa.annotation.TileAnnotationSpatialLocation@5d855f
+        Image:
+                Dimensions:                                [640px x 364px]
+                Size:                                      [3.3765m x 1.904m]
+                Distance from center to origin:            [1.0765m, 0.6468m]
+                Heading:                                    -83.42838454899918 degrees
+        Annotation:
+                Pixel:                                     [203, 307]
+                Distance from center to annotation:        [-0.61726640625m, -0.6538461538461539m]
+                Distance from origin to annotation:        [1.655407049045604m, -0.041240142542212865m]
+                Distance from center to annotation:         0.8991844133347721m
+                Math angle from center to annotation:       -49.92322730930919
+                geographic angle from center to annotation: 139.9232273093092
+        
+2008-11-10 16:52:29,126 [main] DEBUG simpa.annotation.TileAnnotationSpatialLocation  - SpatialLocation: simpa.annotation.TileAnnotationSpatialLocation@1681ea
+        Image:
+                Dimensions:                                [640px x 364px]
+                Size:                                      [3.3136m x 1.8653m]
+                Distance from center to origin:            [0.8031m, 0.261m]
+                Heading:                                    -92.86499943480383 degrees
+        Annotation:
+                Pixel:                                     [257, 221]
+                Distance from center to annotation:        [-0.3261825m, -0.19985357142857144m]
+                Distance from origin to annotation:        [1.0190072968323267m, -0.05478554826584864m]
+                Distance from center to annotation:         0.38253950556642524m
+                Math angle from center to annotation:       -55.639000535286804
+                geographic angle from center to annotation: 145.6390005352868
+        
+2008-11-10 16:52:29,186 [main] DEBUG simpa.annotation.TileAnnotationSpatialLocation  - SpatialLocation: simpa.annotation.TileAnnotationSpatialLocation@e2892b
+        Image:
+                Dimensions:                                [640px x 364px]
+                Size:                                      [3.2167m x 1.812m]
+                Distance from center to origin:            [1.1903m, 0.2468m]
+                Heading:                                    -85.54832839098323 degrees
+        Annotation:
+                Pixel:                                     [158, 216]
+                Distance from center to annotation:        [-0.8142271875m, -0.16925274725274728m]
+                Distance from origin to annotation:        [1.2958433073079787m, -0.5781078830992319m]
+                Distance from center to annotation:         0.8316323738989256m
+                Math angle from center to annotation:       -82.70887218629845
+                geographic angle from center to annotation: 172.70887218629846
+        
+2008-11-10 16:52:29,245 [main] DEBUG simpa.annotation.TileAnnotationSpatialLocation  - SpatialLocation: simpa.annotation.TileAnnotationSpatialLocation@3d1402
+        Image:
+                Dimensions:                                [640px x 364px]
+                Size:                                      [3.2167m x 1.812m]
+                Distance from center to origin:            [1.5184m, -0.0961m]
+                Heading:                                    -95.52352360421085 degrees
+        Annotation:
+                Pixel:                                     [106, 156]
+                Distance from center to annotation:        [-1.0755840625m, 0.12942857142857142m]
+                Distance from origin to annotation:        [1.4931021146342567m, -1.179147943353417m]
+                Distance from center to annotation:         1.0833433576692315m
+                Math angle from center to annotation:       268.6619257723874
+                geographic angle from center to annotation: 181.3380742276126
+        
+2008-11-10 16:52:29,296 [main] DEBUG simpa.annotation.TileAnnotationSpatialLocation  - SpatialLocation: simpa.annotation.TileAnnotationSpatialLocation@dd9891
+        Image:
+                Dimensions:                                [640px x 364px]
+                Size:                                      [3.1925m x 1.7975m]
+                Distance from center to origin:            [1.5606m, -0.5425m]
+                Heading:                                    -95.1339123035219 degrees
+        Annotation:
+                Pixel:                                     [101, 60]
+                Distance from center to annotation:        [-1.09243359375m, 0.6024587912087912m]
+                Distance from origin to annotation:        [1.0583132375455881m, -1.6844613654241387m]
+                Distance from center to annotation:         1.2475446893231112m
+                Math angle from center to annotation:       246.2579141300569
+                geographic angle from center to annotation: 203.7420858699431

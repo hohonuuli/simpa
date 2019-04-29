@@ -1,0 +1,15 @@
+#!/bin/sh
+# $Id: $
+
+# SIMPA_HOME is the root directory of the VARS installation.
+SIMPA_HOME=`dirname "$0"`/..
+
+SIMPA_CLASSPATH=$SIMPA_HOME/conf
+for jar in $(ls $SIMPA_HOME/lib/*.jar)
+do
+    SIMPA_CLASSPATH=$SIMPA_CLASSPATH:$jar
+done
+
+SIMPA_LIB_PATH=${VARS_HOME}/native
+
+FNAME='[\E[37;44m'"\033[1mSIMPA SCRIPTING\033[0m]"

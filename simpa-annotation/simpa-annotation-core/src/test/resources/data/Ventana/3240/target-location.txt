@@ -1,0 +1,11 @@
+# Position information for Ventana 3240. 
+# Targeting the top most end of the sea cucumber
+# x and y are pixels from top left
+# Columns: tileIndex, x, y
+110,202,150
+111,195,249
+112,203,307
+113,257,221
+114,158,216
+115,106,156
+116,101,60

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://dsg.mbari.org/simpa/webstart" href="$outputFile">
+    <information>
+        <title>SIMPA Annotation</title>
+        <vendor>Brian Schlining</vendor>
+        <homepage href="http://dsg.mbari.org/simpa"/>
+        <description>SIMPA Image Mosaic Annotation Application/description>
+        <icon href="simpa-64.jpg"/>
+        <icon kind="splash" href="simpa-splash.jpg" />
+        <offline-allowed/>
+        <shortcut>
+            <desktop/>
+            <menu submenu="VARS"/>
+        </shortcut>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+      <j2se version="1.5+" initial-heap-size="64m" max-heap-size="512m" />
+      $dependencies
+    </resources>
+	<resources os="Mac OS X">
+        <!-- Need to specify a location for the directory to copy images into on a mac -->
+        <property name="image.archive.dir" value="/Volumes/framegrabs/" />
+        <jar href="vars/lib/rxtx-2.2pre2.jar"/>
+        <nativelib href="rxtx-native-macosx.jar" />
+    </resources>
+    <resources os="Linux">
+        <jar href="vars/lib/rxtx-2.2pre2.jar"/>
+        <nativelib href="rxtx-native-linux.jar"/>
+    </resources>
+    <resources os="Windows">
+        <!-- RXTX Native libraries -->
+        <jar href="vars/lib/rxtx-2.2pre2.jar"/>
+        <nativelib href="rxtx-native-windows.jar"/>
+    </resources>
+    <application-desc main-class="$mainClass"/>
+</jnlp>

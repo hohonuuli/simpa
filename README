@@ -1,0 +1,8 @@
+Seafloor Imaging of Marine Protected Areas (SIMPA)
+
+To Build:
+	>> mvn clean install
+	
+	This will generate an executable jar file in simpa/simpa-annotation-app/target
+	
+The main HG repos is in /u/brian/hg_repo/simpa

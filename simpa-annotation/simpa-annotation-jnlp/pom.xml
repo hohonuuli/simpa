@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>simpa-annotation</artifactId>
+        <groupId>org.mbari</groupId>
+        <version>2.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>simpa-annotation-jnlp</artifactId>
+    <name>simpa-annotation-jnlp [Distribution]</name>
+    <url>http://seaspray.shore.mbari.org/webstart/simpa</url>
+    <packaging>pom</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>org.mbari</groupId>
+            <artifactId>simpa-annotation-app</artifactId>
+            <version>${version}</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>webstart-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <!-- use jnlp, jnlp-inline or jnlp-single as appropriate -->
+                            <goal>jnlp</goal> 
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+
+                   <!-- 
+                     The path where the libraries are stored within the jnlp 
+                     structure. not required. by default the libraries are 
+                     within the working directory 
+                     
+                     NOTE: This doesn't actually work
+                   -->
+                    <libPath>lib/</libPath>
+
+                    <!-- JNLP generation -->
+                    <jnlp>
+                        <outputFile>simpa.jnlp</outputFile> <!-- defaults to launch.jnlp -->
+                        <mainClass>simpa.annotation.ui.App</mainClass>
+                    </jnlp>
+
+
+                    <!-- SIGNING -->
+                    <!-- defining this will automatically sign the jar and its 
+                      dependencies, if necessary 
+                    -->
+                    <sign>
+                        <keystore>http://seaspray.shore.mbari.org/keystore/keystore.bin</keystore>
+                        <keypass>javaBeansMakeLousyCoffee</keypass> 
+                        <storepass>java1700</storepass> 
+                        <alias>MBARIjava</alias>
+                        <verify>true</verify> <!-- verify that the signing operation succeeded -->
+                    </sign>
+
+                    <!-- BUILDING PROCESS -->
+                    <pack200>false</pack200>
+                    <gzip>false</gzip> <!-- default force when pack200 false, true when pack200 selected ?? -->
+
+                    <!-- causes a version attribute to be output in each jar resource element, optional, default is false -->
+                    <outputJarVersions>true</outputJarVersions>
+                    <verbose>true</verbose>
+
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
